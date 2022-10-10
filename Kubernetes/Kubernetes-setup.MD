@@ -64,6 +64,8 @@ sudo ./aws/install
 1. Create kubernetes cluster definitions on S3 bucket
    ```sh
    kops create cluster --cloud=aws --zones=ap-south-1b --name=demo.k8s.valaxy.net --dns-zone=valaxy.net --dns private 
+   
+   kops create cluster --cloud=aws --zones=us-west-2 --name=k8sdemo.net --dns-zone=k8sdemo.net --dns private 
     ```
 
 1. Create kubernetes cluser
